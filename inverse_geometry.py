@@ -20,6 +20,15 @@ def computeqgrasppose(robot, qcurrent, cube, cubetarget, viz=None):
     setcubeplacement(robot, cube, cubetarget)
     #TODO implement
     print ("TODO: implement me")
+    # get current cube placement
+
+    # get the target cube placement
+
+    # get the current end effector placement
+
+    # evaluate collisions
+
+    
     return robot.q0, False
             
 if __name__ == "__main__":
